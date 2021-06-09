@@ -48,13 +48,15 @@ header {
 }
 label {
   font-size: 0.8rem;
-  color: var(--color5);
+  color: #fff;
   padding-right: 1%;
 }
 input {
   border: 2px solid #fff;
   padding: 1%;
   background-color: var(--color1);
+}
+input::placeholder {
   color: #fff;
 }
 #button {
