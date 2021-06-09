@@ -1,0 +1,116 @@
+/* Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600&display=swap");
+
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Colors */
+/* Color Theme Swatches in Hex */
+:root {
+  --color1: #58748c;
+  --color2: #245473;
+  --color3: #a67a29;
+  --color4: #8c5f27;
+  --color5: #594020;
+}
+
+body {
+  background-color: var(--color1);
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 18px;
+  padding: 4% 4%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2%;
+}
+#logo {
+  width: 30%;
+}
+#logo img {
+  height: 10vh;
+  width: auto;
+}
+#form {
+  width: 70%;
+  max-height: 5vh;
+  text-align: right;
+}
+label {
+  font-size: 0.8rem;
+  color: var(--color5);
+  padding-right: 1%;
+}
+input {
+  border: 2px solid #fff;
+  padding: 1%;
+  background-color: var(--color1);
+  color: #fff;
+}
+#button {
+  background-color: var(--color3);
+}
+
+#result {
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 2%;
+}
+
+/*  The cards */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.cardhead {
+  background-color: #fff;
+  width: 100%;
+  padding: 2%;
+  color: var(--color3);
+}
+.wrapper {
+  display: flex;
+  width: 100%;
+  background-color: var(--color2);
+  padding: 2%;
+}
+.icon {
+  width: 80%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.icon p:first-of-type {
+  font-size: 5rem;
+}
+.info {
+  text-align: center;
+  font-size: 0.9rem;
+}
+.info p {
+  margin-top: 5%;
+}
+
+.infolabel {
+  font-weight: 800;
+  padding: 3%;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+}
